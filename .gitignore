@@ -1,0 +1,16 @@
+# root
+.DS_Store
+
+# app runtime artifacts
+apps/quota-bot/node_modules/
+apps/quota-bot/dist/
+apps/quota-bot/data/
+apps/quota-bot/*.sqlite
+apps/quota-bot/*.sqlite-shm
+apps/quota-bot/*.sqlite-wal
+apps/quota-bot/.env
+apps/quota-bot/.env.*
+
+# local editor files
+.vscode/
+.idea/
